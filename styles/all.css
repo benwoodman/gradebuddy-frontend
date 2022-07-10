@@ -1,0 +1,157 @@
+p {
+    color:rgba(0, 0, 0, 0.788);
+}
+
+body {
+    background-color: #BCD8DC;
+
+}
+
+.box {
+    background-color: #FFFCFF;
+}
+
+.nav {
+    background-color: #FFFCFF;
+}
+
+.upload-button {
+    position: fixed;
+    top: -100em;
+}
+
+#wrapper {
+    padding-top: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navbar-link {
+    color: rgba(0, 0, 0, 0.788);
+}
+
+.navbar-link:not(.is-arrowless)::after {
+    border-color:#2E4052;
+
+}
+
+.button.is-primary {
+    background-color:#FFD685;
+    color: rgba(0, 0, 0, 0.788);
+}
+
+.button.is-primary:hover {
+    background-color: #2E4052;
+}
+
+.assignment_list_item {
+    display: grid;
+    grid-template-columns: .7fr .2fr .2fr;
+    align-items: center;
+}
+
+.submission_list_item{
+    display: grid;
+    grid-template-columns: .5fr .5fr;
+}
+
+#indv-upload-comp {
+    display: grid;
+    grid-template-columns: .6fr .4fr;
+    padding-bottom: 30px;
+}
+
+#indv-upload-comp h1 {
+    font-size: 1.5em;
+    /* padding-bottom: 10px; */
+}
+
+.indv-upload-sidebar {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.rubric-item {
+    display: grid;
+    grid-template-columns: .1fr .9fr;
+    cursor: pointer;
+}
+
+.selected-rubric-item {
+    background-color:#FFD685;
+}
+
+#title {
+    display: grid;
+    grid-template-columns: .8fr .2fr;
+    align-items: center;
+}
+
+#title h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#title a {
+    font-weight: bold;
+}
+
+.upload-label {
+    color: #2E4052;
+    cursor: pointer;
+}
+
+.upload-label:after {
+    border: 3px solid transparent;
+    border-radius: 2px;
+    border-right: 0;
+    border-top: 0;
+    content: " ";
+    display: inline-block;
+    height: .625em;
+    pointer-events: none;
+    /* position: absolute; */
+    transform: rotate(-135deg);
+    transform-origin: center;
+    width: .625em;
+    border-color: #2E4052;
+    margin-left: .25em;
+    
+}
+
+a {
+    color: #2E4052;
+    cursor: pointer;
+    /* color: #FFD685; */
+}
+
+a.with-arrow:after {
+    border: 3px solid transparent;
+    border-radius: 2px;
+    border-right: 0;
+    border-top: 0;
+    content: " ";
+    display: inline-block;
+    height: .625em;
+    pointer-events: none;
+    /* position: absolute; */
+    transform: rotate(-135deg);
+    transform-origin: center;
+    width: .625em;
+    border-color: #2E4052;
+    margin-left: .25em;
+}
+
+.list-button {
+    width: 100%;
+}
+
+.new-rubric-item {
+    display: grid;
+    grid-template-columns: .2fr .6fr .2fr;
+    gap: 1em;
+}
+
+.field-label {
+    text-align: left;
+}
