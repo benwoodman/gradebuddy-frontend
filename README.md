@@ -14,5 +14,5 @@ GradeBuddy is a service that allows classmates to co-grade each other's work. Wh
 * View the grades that other students gave their work
 
 ## Stack
-* React Frontend
+* React.js Frontend
 * Bulma CSS Framework
